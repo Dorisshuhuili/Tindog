@@ -1,0 +1,222 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+
+
+
+h4 {
+   font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.5;
+
+}
+
+p {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5;
+
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+ text-align: left;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  color: black;
+  font-weight: 800;
+}
+.feature-title{
+font-weight: 800;
+font-size: 1.5rem;
+line-height: 1.5;
+}
+.pricing-heading {
+  color: black;
+  padding-bottom: 50px;
+  font-family: "Montserrat";
+  font-size: 2rem;
+}
+
+.container-fluid {
+  padding: 7% 15% ;
+}
+
+/* navigation bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Download bottons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+.title-image {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+#features {
+  padding: 8% 15%;
+
+  background-color: #fff;
+  position: relative;
+}
+
+.fa-solid {
+  color: #ef8172;
+  margin: 100px 100px 0 100px;
+  padding: 3% 10%;
+}
+
+
+
+i:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.textmonials-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+.card-title {
+  color: black;
+  font-weight: 600;
+}
+
+.pricing-heading {
+  color: black;
+  padding-bottom: 50px;
+  font-family: "Montserrat";
+  font-size: 2rem;
+}
+
+#pricing {
+  padding: 100px;
+  background-color: white;
+
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-name {
+  color: black;
+  font-weight: 600;
+}
+
+@media (max-width:1100px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    width: 80%;
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+/* <!-- Call to Action --> */
+.cta-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 1.5;
+
+  padding: auto;
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+
+}
+
+#footer {
+  background-color: #fff;
+  padding: 5%;
+  color: white;
+}
+
+.fa-brands {
+  margin: 15px;
+}
+
+.footer-name {
+  border: 10px;
+}
